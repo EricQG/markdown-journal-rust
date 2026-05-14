@@ -5,7 +5,10 @@
    - Run the `daily-summary` agent for today's file (append exactly 10 bullets to `journal/topics/daily_summary.md`).
 4. If it's before 7pm local time:
    - Do not run automated end-of-day completion unless the user explicitly requests it.
-5. Commit and push:
+5. Export Copilot Chat sessions:
+   - Run `./bin/export-copilot-session.sh` and capture the output.
+   - If output is non-empty, append it to today's journal file **before** the `---*Notes:*` footer.
+6. Commit and push:
    - `git status`
    - `git add -A`
    - `git commit -m "journal: YYYY-MM-DD"`

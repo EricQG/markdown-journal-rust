@@ -6,5 +6,8 @@ This command is used when the user missed capturing the end of the previous day.
 4. Ask the user for any missing details you should log for that day, then update the file (do not invent).
 5. Run the `journal-field-completer` agent on yesterday's file.
 6. Run the `daily-summary` agent on yesterday's file.
-7. Run the `commit` command to commit and push changes.
+7. Export Copilot Chat sessions for yesterday:
+   - Run `./bin/export-copilot-session.sh YYYY-MM-DD` (yesterday's date) and capture the output.
+   - If output is non-empty, append it to yesterday's journal file **before** the `---*Notes:*` footer.
+8. Run the `commit` command to commit and push changes.
 

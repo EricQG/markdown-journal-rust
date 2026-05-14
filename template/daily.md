@@ -59,3 +59,7 @@ triggers: [] # Optional: short snake_case events/situations that affected you (e
 
 ---
 *Notes:*
+
+## Copilot Chat Activity
+
+<!-- Auto-populated by export-copilot-session.sh on commit -->
