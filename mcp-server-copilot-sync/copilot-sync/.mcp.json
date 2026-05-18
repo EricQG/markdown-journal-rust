@@ -1,0 +1,17 @@
+{
+	"mcpServers": {
+		"copilot-sync": {
+			"type": "stdio",
+			"command": "python3",
+			"args": [
+				"-m",
+				"mcp_server_copilot_sync"
+			],
+			"env": {
+				"GITHUB_TOKEN": "${env:GITHUB_TOKEN}",
+				"SYNC_REPO_OWNER": "${env:SYNC_REPO_OWNER}",
+				"SYNC_REPO_NAME": "${env:SYNC_REPO_NAME}"
+			}
+		}
+	}
+}

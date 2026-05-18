@@ -1,0 +1,14 @@
+{
+    "github_token": "ghp_your_personal_access_token_here",
+    "repo_owner": "your-github-username",
+    "repo_name": "copilot-sync",
+    "branch": "main",
+    "db_file_path": "session-store.db",
+    "local_db_paths": [
+        "/home/eric/.vscode-server-insiders/data/User/globalStorage/github.copilot-chat/session-store.db",
+        "/home/eric/.vscode-server/data/User/globalStorage/github.copilot-chat/session-store.db",
+        "C:\\Users\\YOUR_NAME\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\session-store.db",
+        "C:\\Users\\YOUR_NAME\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\session-store.db"
+    ],
+    "backup_dir": "/home/eric/copilot-sync-backups"
+}
